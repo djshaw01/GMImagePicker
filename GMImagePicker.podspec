@@ -16,26 +16,25 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GMImagePicker"
-  s.version      = "0.0.2"
-  s.summary      = "A Photo and Video picker similar to UIImagePicker supporting multiple selections and UI customizations."
+  s.version      = "0.0.3"
+  s.summary      = "A Photo and Video picker similar to UIImagePicker supporting multiple selections and UI customizations. Customized for CNC apps"
 
-  s.description  = "GMImagePicker is a tiny and fast UIImagePicker replacement supporting video picking, multiple selections and UI customizations. It is based in the new PhotoKit framework and returns an array of PHAssets so only works for iOS 8+"
-  s.homepage     = "https://github.com/guillermomuntaner/GMImagePicker"
-  s.screenshots  = "https://github.com/guillermomuntaner/GMImagePicker/raw/master/GMImagePickerDemo.gif"
+  s.description  = "Forked from Guillermo Muntaner: GMImagePicker is a tiny and fast UIImagePicker replacement supporting video picking, multiple selections and UI customizations. It is based in the new PhotoKit framework and returns an array of PHAssets so only works for iOS 8+"
+  s.homepage     = "https://github.com/djshaw01/GMImagePicker"
+  s.screenshots  = "https://github.com/djshaw01/GMImagePicker/raw/master/GMImagePickerDemo.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.author             = { "Guillermo Muntaner" => "guillermomp87@gmail.com" }
-  s.social_media_url   = "https://twitter.com/guillermomp87"
+  s.author             = { "Guillermo Muntaner" => "guillermomp87@gmail.com", "Daniel Shaw" => "dan@danieljshaw.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "8.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/guillermomuntaner/GMImagePicker.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/dkshaw01/GMImagePicker.git", :tag => "0.0.3" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files  = "GMImagePicker", "GMImagePicker/*.{h,m}"
